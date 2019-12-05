@@ -1,9 +1,6 @@
 import tweepy
 import time
-auth ="z2Cv26gIIMPDm72w2Njce4Jjt"
-authsecret ="Jb1KBCDrCP5M6g70N3NnCNHfOBMJCjvBzxu9hlYPhsuNfuhx3H"
-token = "1165713578156015617-BBFnNhRpGaSmfkqal013Z5GrfX736U"
-tokensecret= "HzVjNKPKoZQLnDa03syDOPbLoxYkJaSpUSkXSHcHCorEp"
+
 auth = tweepy.OAuthHandler(auth, authsecret)
 auth.set_access_token(token, tokensecret)
 
